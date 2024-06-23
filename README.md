@@ -28,6 +28,8 @@ My second solution's main idea is to use bits instead of bytes (to reduce memory
 I used two BitSets for storage (since BitSet can only store maximum amount of Integer, we need two of them), main idea 
 here is to transform ipAddress into unique integer and than mark it "already read" in BitSet.
 
+I assumed that Ip addresses are in the correct format,so I didn't provide some validations for that.
+
 ## Build and Run
 
 To build jar file:
